@@ -172,7 +172,7 @@ Here is the human's input (remember to respond with a markdown code snippet of a
 {{{{input}}}}"""
 
 
-COMBINE_CHAT_PROMPT_TEMPLATE = CUSTOM_CHATBOT_PREFIX +  """
+COMBINE_CHAT_PROMPT_TEMPLATE = CUSTOM_CHATBOT_PREFIX + """
 
 ## On your ability to answer question based on fetched documents (sources):
 - You should always leverage the fetched documents (sources) when the user is seeking information or whenever fetched documents (sources) could be potentially helpful, regardless of your internal knowledge or information.
