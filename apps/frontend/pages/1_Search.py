@@ -95,8 +95,7 @@ else:
 
             try:
                 index1_name = "cogsrch-index-files"
-                index2_name = "cogsrch-index-csv"
-                text_indexes = [index1_name, index2_name]
+                text_indexes = [index1_name]
                 vector_indexes = [index+"-vector" for index in text_indexes]
                 
                 # Search in text-based indexes first and update vector indexes
